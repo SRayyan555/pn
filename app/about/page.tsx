@@ -13,7 +13,7 @@ export default function About() {
       <section className="flex-grow py-24 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <p className="text-2xl leading-relaxed text-zinc-700">
-            We are a team of dedicated professionals pushing the boundaries of what's possible in the digital space. Our approach is rooted in first principles thinking and a commitment to excellence.
+            @We are a team of dedicated professionals pushing the boundaries of what's possible in the digital space. Our approach is rooted in first principles thinking and a commitment to excellence.
           </p>
         </div>
       </section>
