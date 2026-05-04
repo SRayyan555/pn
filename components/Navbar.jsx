@@ -9,7 +9,7 @@ export default function Navbar() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  const navigateTo = (path: string) => {
+  const navigateTo = (path) => {
     setIsOpen(false);
     router.push(path);
   };
