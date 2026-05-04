@@ -1,9 +1,9 @@
 export default function WhatWeAre() {
   const headingStyle = "font-display font-semibold text-[72px] leading-[120%] tracking-[-2.6px] text-[#333333] text-center";
-  const paragraphStyle = "font-sans font-medium text-[32px] leading-[130%] tracking-[0px] text-[#333333] text-center max-w-[540px] mx-auto";
+  const paragraphStyle = "font-inter font-medium text-[32px] leading-[130%] tracking-[0px] text-[#333333] text-center max-w-[540px] mx-auto";
 
   return (
-    <section id="what-we-are" className="py-32 bg-white flex flex-col items-center gap-40">
+    <section id="what-we-are" className="pb-[100px] bg-white flex flex-col items-center gap-40">
       {/* What we are Section */}
       <div className="w-full max-w-[1280px] px-8 flex flex-col gap-24">
         <h2 className={headingStyle}>What we are</h2>

@@ -11,6 +11,7 @@
   --font-sans: var(--font-inter);
   --font-inter: var(--font-inter);
   --font-display: var(--font-inter-display);
+  --font-serif: var(--font-serif);
   --font-mono: var(--font-geist-mono);
 }
 
