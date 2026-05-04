@@ -3,9 +3,9 @@ export default function WhatWeAre() {
   const paragraphStyle = "font-inter font-medium text-[32px] leading-[130%] tracking-[0px] text-[#333333] text-center max-w-[540px] mx-auto";
 
   return (
-    <section id="what-we-are" className="pb-[100px] bg-white flex flex-col items-center gap-40">
+    <section id="what-we-are" className="pb-[100px] bg-white flex flex-col items-center gap-[100px]">
       {/* What we are Section */}
-      <div className="w-full max-w-[1280px] px-8 flex flex-col gap-24">
+      <div className="w-full max-w-[1280px] px-8 flex flex-col gap-[40px]">
         <h2 className={headingStyle}>What we are</h2>
         
         <div className="grid md:grid-cols-2 gap-x-20 gap-y-24 items-start">
@@ -26,7 +26,7 @@ export default function WhatWeAre() {
       </div>
 
       {/* What we are not Section */}
-      <div className="w-full max-w-[1280px] px-8 flex flex-col gap-24">
+      <div className="w-full max-w-[1280px] px-8 flex flex-col gap-[40px]">
         <h2 className={headingStyle}>
           What we are <span className="text-[#E31E24]">not</span>
         </h2>
