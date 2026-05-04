@@ -13,7 +13,6 @@ export default function Home() {
       <Different />
       <WhatWeAre />
       <Membership />
-      <Footer />
     </main>
   );
 }
