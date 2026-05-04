@@ -6,7 +6,7 @@ export default function Different() {
         <div className="w-full flex flex-col">
           {/* First Principles Row */}
           <div className="w-full border-b border-zinc-100 flex justify-center">
-            <div className="w-full px-8 grid md:grid-cols-2 items-start">
+            <div className="w-full px-[40px] mx-[60px] gap-[122px] flex border  items-center">
               {/* Left Side: Title */}
               <div className="flex justify-center md:justify-end items-center w-[308px] border border-black">
                 <span className="font-serif italic text-[32px] md:text-[45px] text-[#A3A3A3] leading-none">
@@ -29,8 +29,8 @@ export default function Different() {
                       <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM7 12h5v5H7v-5z" />
                     </svg>
                   </div>
-                  <span className="font-sans font-bold leading-[120%] tracking-[0px] text-[24px] md:text-[28px]">
-                    <span className="text-[#666666] font-bold">#6</span>/year
+                  <span className="font-display text-[#656A6B] font-medium leading-[120%] tracking-[0px] text-[24px] md:text-[28px]">
+                    <span className=" font-bold">#6</span>/year
                   </span>
                 </div>
               </div>
